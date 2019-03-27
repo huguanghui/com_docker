@@ -1,0 +1,9 @@
+version: '3'
+volumes:
+  code:
+
+services:
+  go_dir:
+    image: golang
+    volumes:
+    - code:/go
